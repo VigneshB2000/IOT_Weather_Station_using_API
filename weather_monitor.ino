@@ -10,10 +10,10 @@
 LiquidCrystal_I2C lcd(0x3F,16,2);
 
 
-const char* ssid     = "E.D.I.T.H";     
-const char* password = "vicky008";   
-String APIKEY = "ebdd397729cb9d206ed954dcb6c9efac";
-String CityID = "1259440"; 
+const char* ssid     = "Hotspot_ame";     
+const char* password = "password";   
+String APIKEY = "api_key";
+String CityID = "city_id"; 
 
 WiFiClient client;
 char servername[]="api.openweathermap.org";  
